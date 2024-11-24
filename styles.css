@@ -1,0 +1,541 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Top Banner */
+.top-banner {
+  background-color: #fd1212;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.signup-now {
+  background: white;
+  color: #e40046;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* Navbar */
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e40046;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.ali{
+  .login-btn{
+    background-color: hwb(342 47% 11%);
+    color: rgb(27, 24, 24);
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: flex;
+  }
+  
+  .signup-btn {
+    background-color: #dd698c;
+    color: rgb(27, 24, 24);
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: flex;
+  }
+}
+
+
+.cart-icon {
+  font-size: 20px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+.hero-image img {
+  width: 500px; /* Adjust the width as needed */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.locate-btn {
+  background-color: #f0f0f0;
+}
+
+.find-food-btn {
+  background-color: #e40046;
+  color: white;
+}
+
+/* New Section */
+.restaurant-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.restaurant-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.restaurant-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.restaurant-image img {
+  max-width: 70%;
+  border-radius: 10px;
+}
+
+.restaurant-card {
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.restaurant-card p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.get-started-btn {
+  background-color: #e40046;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+.cities-section {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cities-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0f0e0d; /* Food Panda's signature red-orange color */
+}
+
+.cities-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.cities-list li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cities-list li img {
+  width: 200px; /* Adjust the size of the image */
+  height: 150px;
+  border-radius: 5%; /* Optional: Make the image circular */
+  margin-bottom: 10px;
+  object-fit:fill; /* Ensures images fit well inside the container */
+}
+
+.cities-list li span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.cities-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffefec;
+}
+
+
+
+
+
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Section Styling */
+.abc1234 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #f7f1f1;
+}
+
+.container-1234 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: #faf4f4;
+}
+
+/* Text Section */
+.text-section-1234 {
+  flex: 1;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.text-section-1234 h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF595E; /* FoodPanda Red */
+  margin-bottom: 10px;
+}
+
+.text-section-1234 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-section-123 p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.qr-code {
+  margin-bottom: 20px;
+  max-width: 150px;
+  display: block;
+  background-color: #faf4f4;
+}
+
+.qr-code img {
+  width: 100%;
+  height: auto;
+  background-color: #faf4f4;
+}
+
+/* Download Buttons */
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;  /* Ensures there is space between the buttons */
+  background-color: #faf4f4;
+ 
+}
+
+.download-buttons a {
+  display: block;
+}
+
+.download-buttons img {
+  width: 140px;
+  height: auto;
+  transition: transform 0.3s ease;
+  background-color: #faf4f4;
+}
+
+.download-buttons a:hover img {
+  transform: scale(1.1);
+}
+
+/* Image Section */
+.image-section {
+  flex: 1;
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container-123 {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .text-section-123 {
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .image-section {
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-section-123 h1 {
+      font-size: 28px;
+  }
+
+  .text-section-123 h2 {
+      font-size: 20px;
+  }
+
+  .text-section-123 p {
+      font-size: 14px;
+  }
+
+  .download-buttons img {
+      width: 120px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #000;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.whats-new {
+  margin-top: 20px;
+}
+
+.whats-new h2 {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.whats-new ul {
+  list-style: none;
+  padding: 0;
+}
+
+.whats-new ul li {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.whats-new ul li::before {
+  content: '✔';
+  color: red;
+  margin-right: 10px;
+}
+
+.faq {
+  margin-top: 20px;
+}
+
+.faq h3 {
+  font-size: 1.2em;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body {
+  font-family: Arial, sans-serif;
+}
+.footer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+}
+.footer .countries {
+  margin-bottom: 20px;
+}
+.footer .countries a {
+  margin-right: 10px;
+  color: #1a1c1d;
+  text-decoration: none;
+}
+.footer .countries a:hover {
+  text-decoration: underline;
+}
+.footer .links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .links div {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+.footer .links a {
+  display: block;
+  color: #0c0c0c;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.footer .links a:hover {
+  text-decoration: underline;
+}
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+
+/* end */
+
+.end>span{
+  background-color: #dd698c;
+  width: 100px;
+ color: #e40046;
+ font-size: xx-large;
+}
